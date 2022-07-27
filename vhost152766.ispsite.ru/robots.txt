@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /main.html
+Disallow: /aot.html
+Disallow: /forum.html
+Disallow: /neverland.html
+Disallow: /ongoing.html
+Disallow: /rezero2.html
+Disallow: /toubun.html
+Sitemap: http://vhost152766.ispsite.ru/sitemap.xml

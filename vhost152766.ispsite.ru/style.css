@@ -1,0 +1,337 @@
+body 
+{
+    color: #f7f6f3;
+    background-color: #a4ace58c;
+    margin-bottom: 100px;
+    font-family: 'Comfortaa', sans-serif!important;
+    background-image: url(img/bg.jpg);
+    padding:0px; 
+    margin:0; 
+    font-size:100%; 
+}
+h1 
+{
+    color: #a4ace58c;
+}
+hr
+ {
+    color: #ffffff;
+    position: relative;
+    width:100% ;
+    z-index: 0;
+    opacity: 0;
+}
+
+a
+{
+    color:  #a4ace58c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.five a {
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    /*box-shadow: inset 0 -5px 0 black;*/
+ }
+ .five a:hover {
+   /* box-shadow: inset 0 -60px 0 black, 2px 2px 3px rgba(0, 0, 0, 0.3); */
+    color:#CA3B74;
+ }
+
+h3
+{
+    color: #c07d59;
+}
+
+.scale {
+    display: inline-block; 
+    overflow: hidden; 
+    z-index: 1;
+    position: relative;
+    
+}
+
+
+.scale:hover {
+    
+    transform: scale(1.2);
+}
+
+.custom-colored-h1
+{
+    color: #860070;
+}
+
+#gall {
+    position: relative;
+    padding-top: 50%;
+    -moz-user-select: none; user-select: none;
+  }
+  #gall img {
+    position: absolute;
+    top: 25%;
+    left: 12.5%;
+    max-width: 24.5%;
+    max-height: 49.5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: zoom-in;
+    transition: .2s;
+  }
+  #gall img:nth-child(4n-2) {left: 37.5%;}
+  #gall img:nth-child(4n-1) {left: 62.5%;}
+  #gall img:nth-child(4n) {left: 87.5%;}
+  #gall img:nth-child(n+5) {top: 75%;}
+  
+  #gall img:focus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    max-width: 100%;
+    max-height: 100%;
+    outline: none;
+    pointer-events: none;
+  }
+  #gall img:focus ~ div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    cursor: zoom-out;
+  }
+  hr {
+    height: 20px;
+    margin: 30px auto;
+    width: 70%;
+    background-image: radial-gradient(farthest-side at 50% -50%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    position: relative;
+    border: none;
+}
+hr:before {
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0));
+}
+
+.subheadline {
+    color: #7a84d0;
+    margin-top: 10px;
+}
+
+.subheadline {
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+    background: #000000;
+    transition: 0.3s ease;
+    font-size: 14px;
+    box-shadow: none;
+    color: #ffffff!important;
+}
+
+.subheadline {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.subheadline {
+    margin-bottom: 10px;
+}
+
+.subheadline {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #e8ebef;
+    border-left: 5px solid #d8dde4;
+    color: #123;
+    font-family: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+    background: #3d5c83;
+    border-left: 5px solid var(--headline-border-color);
+    color: var(--headline-color);
+    font-family: var(--font-alt);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.13px;
+    line-height: 1.65;
+    margin-bottom: 10px;
+    padding: 4px 10px 2px;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    -webkit-font-smoothing: antialiased;
+}
+#basic {width:960px; min-height:950px; margin:0 auto; padding:20px 20px 20px 20px; background:rgba(89, 89, 138, 0.322);}
+body{ 
+
+-moz-user-select: none; 
+-webkit-user-select: none; 
+-ms-user-select: none; 
+-o-user-select: none; 
+user-select: none; 
+background-attachment: fixed; /* Фон страницы фиксируется */
+background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+background-size: 100%;
+
+
+}
+
+.bg-2 {width:940px; height:8px; background:#000000; margin:0 auto;}
+
+#top-menu {width:951px; height:75px; }
+.bg-1 {width:951px; height:64px; background:#3d5c83; padding: 5px;}
+.bg-1 ul { height: 100%; width: 100%; margin:0; padding:0; list-style:none; flex-wrap: nowrap; display: flex; justify-content: center; gap:5px}
+.bg-1 ul li {display:inline-block; width: 317px; text-align: center; height: 100%;}
+.bg-1 ul li a {display:block; height:100%; width: 100%; color:#ffffff; text-decoration:none; text-transform:uppercase; line-height: 64px;}
+.bg-1 ul li a:hover {color:#fff; background: #7e7ebeb6;}
+
+.post{ 
+    width: 100%;
+    height: fit-content;
+}
+.post_header{
+    font-weight: bolder;
+}
+.post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.post_text{
+    margin:10px
+}
+
+.cssSlider {
+	display: block;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.cssSlider .slides {
+	overflow: hidden;
+	overflow: hidden;
+	width: 100%;
+	height: 70vmin;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.cssSlider .slides > li {
+	width: 100%;
+	height: 70vmin;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+}
+.cssSlider .slides > li > img {
+	width: 100%;
+	height: auto;
+}
+/*
+.cssSlider .slides > li:first-child:not(:target) {
+	z-index: 1;
+	-webkit-transform: translateY(0%);
+	        transform: translateY(0%);
+}
+*/
+.cssSlider .thumbnails {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.cssSlider .thumbnails > li {
+	float: left;
+	width: 20%;
+}
+.cssSlider .thumbnails > li > a {
+	display: block;
+}
+.cssSlider .thumbnails > li > a > img {
+	width: 100%;
+	height: auto;
+}
+
+.cssSlider .slides li:target {
+	z-index: 3;
+	-webkit-animation: slide 1s 1;
+}
+.cssSlider .slides li:not(:target) {
+	-webkit-animation: hidden 1s 1;
+}
+@-webkit-keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+}
+@keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+}
+@-webkit-keyframes hidden {
+	0% {
+		z-index: 2;
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+	100% {
+		z-index: 2;
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+	}
+}
+@keyframes hidden {
+	0% {
+		z-index: 2;
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+	100% {
+		z-index: 2;
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+	}
+}
+
+body2 {
+  background: black;
+  animation: color-me-in 5s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    background: orange;
+  }
+  /* You could think of as "step 2" */
+  100% {
+    background: black;
+  }
+}
+
+
